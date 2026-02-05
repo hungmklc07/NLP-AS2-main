@@ -1,0 +1,16 @@
+Project Lập Trình 2
+
+Yêu cầu: Xây dựng chương trình phân tích quan điểm người dùng trên bộ dữ liệu phản hồi của
+sinh viên. Về mặt kỹ thuật, bạn được chủ động lựa chọn kỹ thuật học sâu để giải quyết bài toán
+này. Kết quả cần hoàn thành là slide báo cáo và mã nguồn chương trình (có thể dựa trên các mã
+nguồn mở, thư viện lập trình, … để phát triển). 
+Slide báo cáo cần trình bày được: 
+(1) Kỹ thuật sử dụng; 
+(2) Kết quả phân tích quan điểm trên tập test; 
+(3) Phân tích lỗi, ưu điểm, hạn chế của phương pháp; 
+(4) Các điểm mới, sáng tạo (nếu có) hoặc các phát hiện khác khi giải quyết bài toán.
+Bộ dữ liệu và bài báo mô tả bộ dữ liệu cũng như một số kết quả đã có kèm theo bài tập này. 
+Các bạn có thể lấy kết quả trong bài báo như là baseline. Vì đây là bài toán phân lớp nên kết quả sẽ
+được đánh giá bằng các độ đo Precision, Recall và F1-score
+
+Hạn: 10 ngày

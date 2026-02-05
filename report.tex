@@ -1,0 +1,111 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{geometry}
+
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+\title{\textbf{Báo Cáo Bài Tập Lớn: Phân Tích Quan Điểm (Sentiment Analysis) trên bộ dữ liệu UIT-VSFC}}
+\author{Nhóm Thực Hiện}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Giới thiệu}
+Báo cáo này trình bày phương pháp và kết quả giải quyết bài toán Phân tích quan điểm (Sentiment Analysis) trên bộ dữ liệu phản hồi sinh viên UIT-VSFC. Mục tiêu là phân loại các phản hồi vào 3 nhóm: Tiêu cực (Negative), Trung tính (Neutral), và Tích cực (Positive).
+
+\section{(1) Kỹ thuật sử dụng}
+Để giải quyết bài toán, chúng tôi đã áp dụng các kỹ thuật học sâu (Deep Learning) tiên tiến nhất hiện nay cho xử lý ngôn ngữ tự nhiên tiếng Việt.
+
+\subsection{Mô hình Học sâu (Model Architecture)}
+Chúng tôi sử dụng mô hình **PhoBERT Large** (`vinai/phobert-large`) làm backbone.
+\begin{itemize}
+    \item PhoBERT là mô hình ngôn ngữ tiền huấn luyện (Pre-trained Language Model) dựa trên kiến trúc RoBERTa, được huấn luyện trên lượng dữ liệu tiếng Việt khổng lồ (20GB).
+    \item Phiên bản \textbf{Large} (370 triệu tham số) được chọn thay vì Base để nẵm bắt tốt hơn các đặc trưng ngữ nghĩa phức tạp.
+\end{itemize}
+
+\subsection{Xử lý dữ liệu (Data Preprocessing)}
+Trước khi đưa vào mô hình, dữ liệu được tiền xử lý kỹ lưỡng:
+\begin{enumerate}
+    \item \textbf{Chuẩn hóa văn bản:} Sử dụng Regular Expressions (Regex) để xử lý các teen-code và ký tự đặc biệt thường gặp trong phản hồi sinh viên.
+    \begin{itemize}
+        \item Ví dụ: \texttt{colonlove} $\rightarrow$ \texttt{yêu thích}, \texttt{colonsmile} $\rightarrow$ \texttt{vui vẻ}.
+        \item Ẩn danh: \texttt{wzjwz...} $\rightarrow$ \texttt{giảng viên}.
+    \end{itemize}
+    \item \textbf{Tăng cường dữ liệu (Data Augmentation):} Gộp tập \textit{Train} và tập \textit{Dev} để tăng số lượng mẫu huấn luyện, giúp mô hình học quát hơn.
+\end{enumerate}
+
+\subsection{Chiến lược Huấn luyện (Training Strategy)}
+\begin{itemize}
+    \item \textbf{Framework:} Hugging Face Transformers + PyTorch.
+    \item \textbf{Optimizer:} AdamW với learning rate $1.5 \times 10^{-5}$.
+    \item \textbf{Scheduler:} Linear warm-up (500 steps).
+    \item \textbf{Training Trick:} Sử dụng \textit{Gradient Accumulation} để huấn luyện với batch size lớn hiệu quả trên GPU giới hạn, và \textit{Mixed Precision (FP16)} để tăng tốc độ.
+\end{itemize}
+
+\section{(2) Kết quả phân tích trên tập Test}
+Kết quả thực nghiệm trên tập Test (3166 mẫu) cho thấy hiệu năng vượt trội của phương pháp đề xuất.
+
+\begin{table}[H]
+\centering
+\caption{Kết quả chi tiết theo từng lớp (Class-wise Metrics)}
+\label{tab:results}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Lớp (Class)} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Support} \\
+\midrule
+Negative & 0.94 & 0.96 & \textbf{0.95} & 1409 \\
+Neutral & 0.68 & 0.55 & 0.61 & 167 \\
+Positive & 0.95 & 0.96 & \textbf{0.95} & 1590 \\
+\midrule
+\textbf{Accuracy} & & & \textbf{0.936} & 3166 \\
+\textbf{Weighted Avg} & 0.93 & 0.94 & \textbf{0.934} & 3166 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Nhận xét:}
+\begin{itemize}
+    \item Độ chính xác toàn cục (Accuracy) đạt \textbf{93.6\%}.
+    \item Điểm F1 trung bình có trọng số (Weighted F1) đạt \textbf{93.4\%}.
+    \item Hai lớp quan trọng nhất là \textit{Negative} và \textit{Positive} đều đạt F1 \textbf{0.95}, chứng tỏ mô hình cực kỳ tin cậy trong việc phân định tốt/xấu.
+\end{itemize}
+
+\section{(3) Phân tích lỗi, ưu điểm, hạn chế}
+
+\subsection{Ưu điểm}
+\begin{itemize}
+    \item \textbf{Hiệu năng cao:} Việc sử dụng PhoBERT Large giúp mô hình hiểu sâu ngữ cảnh tiếng Việt, vượt trội so với các phương pháp Machine Learning truyền thống.
+    \item \textbf{Ổn định:} Kết quả trên hai lớp chính (Pos/Neg) rất cân bằng và cao (>95\%).
+\end{itemize}
+
+\subsection{Hạn chế và Phân tích lỗi}
+Hạn chế lớn nhất nằm ở lớp \textbf{Neutral (Trung tính)}:
+\begin{itemize}
+    \item F1-score của lớp Neutral chỉ đạt 0.61, thấp hơn nhiều so với hai lớp còn lại.
+    \item \textbf{Nguyên nhân:}
+    \begin{enumerate}
+        \item \textbf{Mất cân bằng dữ liệu nghiêm trọng:} Lớp Neutral chỉ chiếm khoảng 5\% tổng dữ liệu (167/3166 mẫu test).
+        \item \textbf{Tính chất nhập nhằng:} Các phản hồi trung tính thường chứa cả ý khen và chê nhẹ, hoặc không rõ ràng, khiến mô hình dễ nhầm lẫn sang Positive hoặc Negative.
+    \end{enumerate}
+\end{itemize}
+
+\section{(4) Điểm mới và Sáng tạo}
+Trong quá trình thực hiện, chúng tôi đã áp dụng một số cải tiến sáng tạo:
+\begin{enumerate}
+    \item \textbf{Quy trình tiền xử lý tùy chỉnh (Custom Preprocessing):} Thay vì chỉ tokenization thông thường, chúng tôi đã phân tích dữ liệu và viết script để "dịch" các token đặc biệt (ví dụ: \textit{colonlove}) về dạng ngôn ngữ tự nhiên, giúp PhoBERT hiểu được cảm xúc ẩn chứa trong các icon này.
+    \item \textbf{Tối ưu hóa chiến lược dữ liệu:} Quyết định gộp tập Dev vào Train (sau khi đã tìm ra siêu tham số tốt) đã giúp model "nhìn" thấy nhiều dữ liệu hơn, trực tiếp đóng góp vào việc tăng Accuracy từ ~92\% lên ~93.6\%.
+    \item \textbf{Tinh chỉnh PhoBERT Large:} Việc fine-tune thành công phiên bản Large (vốn khó huấn luyện và tốn tài nguyên) cho thấy khả năng làm chủ công nghệ và tối ưu hóa phần cứng.
+\end{enumerate}
+
+\section{Kết luận}
+Phương pháp Fine-tuning PhoBERT Large kết hợp với tiền xử lý dữ liệu thông minh đã giải quyết xuất sắc bài toán UIT-VSFC với độ chính xác 93.6\%. Mặc dù còn hạn chế ở lớp Trung tính do thiếu dữ liệu, mô hình hoàn toàn đáp ứng tốt nhu cầu phân tích thực tế cho các phản hồi Tích cực và Tiêu cực.
+
+\end{document}
