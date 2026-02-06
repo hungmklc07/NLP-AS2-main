@@ -20,27 +20,49 @@ def collect_results():
     """Collect results from all experiment directories"""
     results = []
     
-    # Scan results directory
+    # Exclude V3 models
+    EXCLUDE_PATTERNS = ["v3", "V3"]
+    
+    def should_exclude(name):
+        return any(p in name for p in EXCLUDE_PATTERNS)
+    
+    # Scan results directory for model folders
     for item in os.listdir(RESULTS_DIR):
         item_path = os.path.join(RESULTS_DIR, item)
-        if os.path.isdir(item_path):
+        if os.path.isdir(item_path) and item != "ensembles":
+            # Skip V3 models
+            if should_exclude(item):
+                print(f"  Skipped: {item} (excluded)")
+                continue
+                
             # Check for test_results.json
             results_file = os.path.join(item_path, "test_results.json")
             if os.path.exists(results_file):
                 with open(results_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
+                    # Use experiment name from folder
                     data["experiment"] = item
                     results.append(data)
+                    print(f"  Found: {item}")
     
-    # Also check ensembles
+    # Also check ensembles folder
     ensemble_dir = os.path.join(RESULTS_DIR, "ensembles")
     if os.path.exists(ensemble_dir):
         for item in os.listdir(ensemble_dir):
             if item.endswith(".json"):
-                with open(os.path.join(ensemble_dir, item), "r", encoding="utf-8") as f:
+                # Skip V3 ensembles
+                if should_exclude(item):
+                    print(f"  Skipped: {item} (excluded)")
+                    continue
+                    
+                filepath = os.path.join(ensemble_dir, item)
+                with open(filepath, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                    data["experiment"] = f"ensemble_{item.replace('.json', '')}"
+                    # Create readable name from filename
+                    name = item.replace('.json', '').replace('_', ' ').title()
+                    data["experiment"] = f"Ensemble: {name}"
                     results.append(data)
+                    print(f"  Found: Ensemble: {name}")
     
     return results
 

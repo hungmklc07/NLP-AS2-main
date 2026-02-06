@@ -1,0 +1,26 @@
+{
+  "ensemble_name": "Weighted_Transformer_Ensemble",
+  "test_accuracy": 0.9254579911560329,
+  "test_weighted_f1": 0.9241671877725399,
+  "test_macro_f1": 0.8169189369779377,
+  "per_class": {
+    "Negative": {
+      "precision": 0.9568713450292398,
+      "recall": 0.92902767920511,
+      "f1-score": 0.9427439683111272,
+      "support": 1409.0
+    },
+    "Neutral": {
+      "precision": 0.6027397260273972,
+      "recall": 0.5269461077844312,
+      "f1-score": 0.5623003194888179,
+      "support": 167.0
+    },
+    "Positive": {
+      "precision": 0.9279661016949152,
+      "recall": 0.9641509433962264,
+      "f1-score": 0.945712523133868,
+      "support": 1590.0
+    }
+  }
+}

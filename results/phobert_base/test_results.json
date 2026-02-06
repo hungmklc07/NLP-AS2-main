@@ -1,0 +1,29 @@
+{
+  "model_name": "phobert-base",
+  "pretrained_name": "vinai/phobert-base",
+  "use_weighted_loss": true,
+  "merge_train_dev": false,
+  "test_accuracy": 0.9346178142766899,
+  "test_weighted_f1": 0.9325230456589091,
+  "test_macro_f1": 0.8370287688759243,
+  "per_class": {
+    "Negative": {
+      "precision": 0.939015939015939,
+      "recall": 0.9616749467707594,
+      "f1-score": 0.9502103786816269,
+      "support": 1409.0
+    },
+    "Neutral": {
+      "precision": 0.703125,
+      "recall": 0.5389221556886228,
+      "f1-score": 0.6101694915254238,
+      "support": 167.0
+    },
+    "Positive": {
+      "precision": 0.9492163009404389,
+      "recall": 0.9522012578616352,
+      "f1-score": 0.9507064364207222,
+      "support": 1590.0
+    }
+  }
+}

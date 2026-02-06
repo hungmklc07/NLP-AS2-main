@@ -1,0 +1,27 @@
+{
+  "model_type": "logistic",
+  "use_balanced": true,
+  "test_accuracy": 0.8704990524320909,
+  "test_weighted_f1": 0.876791335828149,
+  "test_macro_f1": 0.7276398576648377,
+  "per_class": {
+    "Negative": {
+      "precision": 0.8759322033898305,
+      "recall": 0.9169623846699787,
+      "f1-score": 0.8959778085991679,
+      "support": 1409.0
+    },
+    "Neutral": {
+      "precision": 0.3179916317991632,
+      "recall": 0.4550898203592814,
+      "f1-score": 0.37438423645320196,
+      "support": 167.0
+    },
+    "Positive": {
+      "precision": 0.9559228650137741,
+      "recall": 0.8729559748427673,
+      "f1-score": 0.9125575279421433,
+      "support": 1590.0
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ensemble_name": "Stacking_Ensemble_V2",
+  "base_models": [
+    "phobert_large",
+    "phobert_base"
+  ],
+  "test_accuracy": 0.9137713202779533,
+  "test_weighted_f1": 0.9182000742682263,
+  "test_macro_f1": 0.8012997176006259,
+  "per_class": {
+    "Negative": {
+      "precision": 0.9628224582701063,
+      "recall": 0.9006387508871541,
+      "f1-score": 0.9306930693069307,
+      "support": 1409.0
+    },
+    "Neutral": {
+      "precision": 0.4472573839662447,
+      "recall": 0.6347305389221557,
+      "f1-score": 0.5247524752475248,
+      "support": 167.0
+    },
+    "Positive": {
+      "precision": 0.9422718808193669,
+      "recall": 0.9547169811320755,
+      "f1-score": 0.9484536082474226,
+      "support": 1590.0
+    }
+  }
+}

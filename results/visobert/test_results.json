@@ -1,0 +1,29 @@
+{
+  "model_name": "visobert",
+  "pretrained_name": "uitnlp/visobert",
+  "use_weighted_loss": true,
+  "merge_train_dev": false,
+  "test_accuracy": 0.9118761844598863,
+  "test_weighted_f1": 0.9058433839943725,
+  "test_macro_f1": 0.7665994247248301,
+  "per_class": {
+    "Negative": {
+      "precision": 0.9151266255989049,
+      "recall": 0.9488999290276792,
+      "f1-score": 0.9317073170731708,
+      "support": 1409.0
+    },
+    "Neutral": {
+      "precision": 0.6222222222222222,
+      "recall": 0.33532934131736525,
+      "f1-score": 0.4357976653696498,
+      "support": 167.0
+    },
+    "Positive": {
+      "precision": 0.9250773993808049,
+      "recall": 0.939622641509434,
+      "f1-score": 0.9322932917316693,
+      "support": 1590.0
+    }
+  }
+}

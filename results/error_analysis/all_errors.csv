@@ -1,0 +1,248 @@
+﻿id,text,true_label,pred_label,confidence,true_prob
+3,"giảng bài thu hút , dí dỏm .",Positive,Negative,0.9947978,0.0036914826
+6,tính điểm thi đua các nhóm .,Positive,Neutral,0.95712304,0.02177222
+12,trong trường macbook thầy số hai thì không có máy nào số một .,Positive,Negative,0.9245965,0.00352239
+27,cách mà cô tiếp cận với sinh viên .,Neutral,Positive,0.9433228,0.048647646
+35,môn học này giúp chúng em hiểu ra những vấn đề cơ bản .,Neutral,Positive,0.9967926,0.0015804922
+45,phần lớn chỉ là lý thuyết và bài tập .,Positive,Negative,0.99409074,0.0016576484
+53,như vậy tụi em sẽ định hướng tốt hơn và tập trung vào những thứ cần thiết .,Neutral,Negative,0.99519795,0.0017280938
+121,"ví dụ phù hợp với nội dung kiến thức , hướng dẫn chi tiết .",Neutral,Positive,0.9976083,0.0009820439
+123,cần có nhiều giảng viên như cô dạy hơn .,Positive,Negative,0.9938846,0.004127198
+157,"gây mê , hay mắng và rất dễ hờn coloncontemn .",Negative,Positive,0.99733514,0.0015974338
+164,hoặc cô có thể cung cấp trực tiếp slide tiếng anh để sinh viên học .,Negative,Positive,0.5081839,0.4613642
+165,"có ba buổi học , chỉ những người tham gia buổi đầu mới biết các buổi tiếp theo .",Negative,Neutral,0.9064384,0.053071044
+214,cô hoàng toàn không dùng courses hay các phương tiện liên lạc thông báo .,Positive,Negative,0.99614584,0.0025675984
+247,"hay giải theo cách của mình , chưa giải thích được nhiều thắc mắc của sinh viên .",Positive,Negative,0.9952172,0.0035113203
+292,kỹ những chương cuối .,Neutral,Positive,0.9967122,0.001993375
+347,thầy dạy dễ hiểu tuy nhiên nhiều lúc hơi nhanh .,Negative,Positive,0.9971597,0.0019290508
+355,đề kiểm tra quá dễ .,Negative,Positive,0.99510586,0.0035641135
+362,cô cho em 10 điểm thực hành yêu thích .,Neutral,Positive,0.9973386,0.0017219231
+364,"cô cho tài liệu học tập là một trang web , lên đó tự học và làm đồ án .",Negative,Positive,0.97351086,0.0067960974
+429,thuyết trình thường xuyên .,Negative,Positive,0.99345267,0.0012838809
+436,làm bài giảng sinh động .,Negative,Positive,0.99799204,0.0010815226
+439,đã có làm đơn với phòng đào tạo .,Neutral,Positive,0.651497,0.33803657
+443,có kết hợp với bài tập ví dụ .,Neutral,Positive,0.9977457,0.0009931963
+453,bài tập đầy đủ .,Neutral,Positive,0.99794716,0.0010185061
+457,bài giảng bằng tiếng anh giúp sinh viên tiếp cận ngoại ngữ tốt hơn .,Negative,Positive,0.99716175,0.001654446
+458,có cung cấp tài liệu cho sinh viên .,Neutral,Positive,0.99742043,0.0015570692
+481,"thầy giảng lý thuyết khá chung chung , trừu tượng , khó áp dụng kiến thức .",Negative,Positive,0.996664,0.0023874422
+488,ngoài ra còn nhiều kiến thức ngoài .,Neutral,Positive,0.9976375,0.0012451805
+511,có demo trực tiếp .,Neutral,Positive,0.99678314,0.0018898912
+528,cách tính điểm cộng của giáo viên có điểm quá trình .,Neutral,Negative,0.9970571,0.00096755463
+531,nhiều bài thuyết trình .,Neutral,Positive,0.997809,0.00098957
+540,hơi nhanh nhưng em vẫn theo kịp được .,Neutral,Negative,0.9917406,0.0046824752
+585,em nghĩ như vậy sẽ tốt hơn vì họ sẽ biết được khả năng của sinh viên trong lớp tới đâu để cho bài thực hành được phù hợp với trình độ của sinh viên .,Neutral,Negative,0.9934301,0.0027937186
+596,dạy học theo chương trình .,Neutral,Positive,0.98982376,0.008720622
+599,dạy kết hợp với các hoạt động liên quan đến bài học để sinh viên dễ dàng nắm và nhớ kiến thức hơn .,Negative,Positive,0.98963296,0.008522606
+618,thân thiện và dễ tiếp thu hơn .,Negative,Positive,0.9874126,0.010369852
+639,"thầy dạy tận tâm , nhưng thầy thường nói đến những phần nghiên về lập trình mạng .",Negative,Positive,0.9977798,0.0012891208
+688,dạy full english .,Negative,Positive,0.9973539,0.0011791569
+690,tính thực tiễn của môn học .,Neutral,Negative,0.8947482,0.019275831
+699,đảm bảo cho sinh viên không ngủ gật .,Neutral,Positive,0.99780995,0.0010394576
+704,nắng vào buổi sáng ở gần cửa sổ .,Negative,Neutral,0.55895025,0.009356058
+726,em thấy thầy giảng hơi bị buồn ngủ .,Positive,Negative,0.99734616,0.0015388905
+737,có thời gian để ngủ trên lớp .,Neutral,Positive,0.99483705,0.0027348143
+746,làm sao có thể tìm thấy điểm không hài lòng được .,Positive,Negative,0.9938445,0.0023975829
+753,"giảng viên truyền đạt kiến thức một cách máy móc , không có hiệu quả , tạo không gian học tập áp lực , chán nản cho sinh viên .",Positive,Negative,0.9937589,0.0047079795
+769,"thầy có thái độ phân biệt , chỉ quan tâm đến một vài sinh viên .",Negative,Positive,0.9975172,0.0014972
+773,cho sinh viên hiểu rõ về nội dung môn học .,Negative,Positive,0.5232607,0.46559373
+774,thường xuyên điểm danh .,Negative,Positive,0.9964825,0.0019744507
+776,phương pháp nộp bài của thầy là debug code quay video lấy điểm .,Neutral,Positive,0.955837,0.038389083
+784,"em có đi học ở một trung tâm ngoài trường , tiền học phí so với trường mình về số tiết là gần như tương đương nhau nhưng chất lượng học rất khác nhau , em được đảm bảo giờ lên lớp đúng , thực hành nói , nghe mỗi buổi học .",Negative,Positive,0.9961022,0.0023603733
+789,thầy không có dạy .,Negative,Neutral,0.9314921,0.054588806
+792,đây là những ví dụ nhập môn mà các em học sinh lớp 8 - 9 khi bắt đầu được học về quy hoạch động để đi thi học sinh giỏi .,Neutral,Positive,0.78062856,0.20605128
+799,giáo viên giảng dạy khá nhanh .,Negative,Positive,0.99770784,0.0014074356
+806,"thầy có vẻ hơi bận rộn , gặp thầy có vẻ khó .",Neutral,Negative,0.99663526,0.0012264523
+820,khả năng truyền đạt của giảng viên .,Neutral,Positive,0.98935217,0.0088793235
+845,khi được đề cập thì thầy cho đó là mục tiêu cho các bạn tự tìm hiểu nhằm phát huy tốt nhất tư duy .,Neutral,Positive,0.99337125,0.0029007162
+848,"giảng viên chủ động tận dụng thời gian lên lớp , sắp xếp và nêu rõ các phương pháp và cho sinh viên bài tập và tài liệu đầy đủ hơn .",Negative,Positive,0.9974432,0.0016322085
+853,lớp học chỉ hơi nóng .,Negative,Neutral,0.84551984,0.13632712
+854,em xin cám ơn !,Positive,Negative,0.89284754,0.005747573
+858,thực hành chứa các kiến thức chưa học lý thuyết .,Negative,Positive,0.9972415,0.0014737857
+861,cần có nhiều giảng viên có phương pháp dạy như thầy giảng viên .,Positive,Negative,0.9957235,0.0030801655
+865,giải đáp rất mơ hồ .,Negative,Positive,0.997526,0.0014766431
+867,"cô quá chất , đi dạy chỉ cần cái điện thoại .",Positive,Negative,0.99568945,0.0029707288
+880,"phòng máy cũ , nhưng nhìn chung thì không có ảnh hưởng gì vì thầy dạy rất nhiệt tình .",Neutral,Positive,0.9961247,0.001210681
+883,"giảng viên ít dạy từ mới , cấu trúc ngữ pháp vdotv .",Positive,Negative,0.9941531,0.0043072966
+909,"nếu có môn học nào trong học kỳ tiếp theo mà thầy giảng dạy được , mong phòng đào tạo điều kiện cho thầy tiếp tục hướng dẫn lần sau .",Positive,Negative,0.9839236,0.010851436
+916,mong cô ở lâu với trường .,Positive,Negative,0.9926991,0.005235461
+921,hoạt động cho mỗi nhóm lên thuyết trình về chủ đề đã được giao .,Neutral,Positive,0.685547,0.26554838
+931,nói dễ nghe .,Neutral,Positive,0.9979115,0.0009799517
+938,cầu kỳ .,Neutral,Positive,0.9978561,0.0010279798
+967,giáo viên dạy toàn trong sách giáo trình .,Negative,Positive,0.99788505,0.0011011754
+970,do khi ra trường các công ty chủ yếu đánh mạnh phần thực hành và vận dụng .,Neutral,Negative,0.99238765,0.0016343403
+971,giáo viên truyền đạt kinh nghiệm thực tế nhiều .,Neutral,Positive,0.9978668,0.000943772
+993,giảng viên cho điểm quá trình một cách chủ quan .,Negative,Positive,0.99765766,0.0013390279
+1046,giảng viên ôn tập tập trung nhiều vào một chủ đề mà qua nhiều chủ đề khác .,Negative,Positive,0.99767214,0.0013634422
+1056,giảng dạy theo phương pháp hoạt động nhóm .,Neutral,Positive,0.9975351,0.0011136152
+1078,giảng viên chưa đi sâu vào vấn đề bài học .,Positive,Negative,0.9955781,0.0029856663
+1085,sự tận tình .,Neutral,Positive,0.99776495,0.001275899
+1101,không làm bài thuyết trình nhưng vẫn được nộp báo cáo .,Neutral,Negative,0.9953849,0.0021684298
+1102,có một số buổi nghỉ .,Negative,Neutral,0.88802195,0.094770424
+1107,thầy dạy đủ nội dung bài học .,Neutral,Positive,0.9979588,0.0009623084
+1111,có thể nhiều bạn thích nhưng bản thân mình thấy thầy nói một vấn đề hơi dài dòng .,Neutral,Negative,0.99646723,0.0014476371
+1121,tiếp thu bài cũng ổn .,Neutral,Positive,0.99720407,0.0014476095
+1150,lên lớp đều .,Neutral,Positive,0.99707305,0.0018461824
+1185,hệ thống âm thanh hỗ trợ những bài nghe không được như yêu cầu môn học .,Negative,Positive,0.9862476,0.011874116
+1186,có thể làm demo trực tiếp người ở dưới làm theo .,Negative,Positive,0.98069626,0.010305826
+1187,đầu tư một bộ giáo trình chất lượng và dễ hiểu và giảng dạy theo bộ giáo trình đó .,Negative,Positive,0.9952803,0.0033059386
+1201,"đối với cô giảng viên , cô rất tận tình , giải đáp thắc mắc và hướng đến sinh viên cùng trao đổi đối với y , hoàn toàn tách biệt với sinh viên , không có hướng trao đổi mà là hướng tra khảo kiến thức sinh viên .",Neutral,Positive,0.9977963,0.0009531145
+1206,dành nhiều thời gian trên lớp để chép bài lên bảng .,Negative,Positive,0.99523085,0.002408383
+1209,tạm thời chưa có .,Neutral,Negative,0.9641699,0.031286143
+1215,"những phần dễ thì thầy nói luyên thuyên , ví dụ rất nhiều , những phần khó thầy lướt nhanh .",Negative,Positive,0.9976064,0.0014580091
+1226,cô cho bài tập về nhà và có hình thức ghi tên chép phạt nếu không làm .,Negative,Positive,0.99642724,0.0021409383
+1287,giáo trình mới .,Neutral,Positive,0.53750527,0.4377377
+1290,không khí căng thẳng .,Negative,Positive,0.9927931,0.0038319626
+1306,"mới đầu tiên em nghĩ thầy khó tính gây áp lực cho em , thầy cho làm deadline quá trời mà những lớp khác không có , nhưng đến bây giờ em mới hiểu nhờ thầy em biết được nhiều dạng bài tập hơn , thầy thích hợp dạy môn kiến trúc máy tính , nhưng mà thầy dạy phần cứng hay hơn ấy ạ .",Positive,Negative,0.99601185,0.002929265
+1334,thầy giảng viên không dạy lớp này .,Negative,Neutral,0.92380553,0.06426343
+1335,thầy nên cho nhiều ví dụ hơn .,Positive,Negative,0.9966499,0.002220567
+1338,còn nghỉ giữa buổi khá nhiều và làm tốn thời gian vô ích .,Positive,Negative,0.9966239,0.0022710229
+1344,thầy dạy lý thuyết tạm ổn .,Neutral,Positive,0.9975898,0.0013968238
+1359,"nói hơi nhanh , cho bài tập thêm hơi khó .",Positive,Negative,0.9964083,0.002177033
+1363,slide bài giảng chưa được đưa lên .,Positive,Negative,0.9959577,0.0026338494
+1378,dạy tương đối đầy đủ chương trình .,Neutral,Positive,0.9980009,0.0009722152
+1393,cho nhiều bài tập khó cho sinh viên làm .,Negative,Positive,0.9849278,0.0134064285
+1411,làm được nhiều bài tập .,Neutral,Positive,0.9977506,0.0011276301
+1421,với lại đặc thù sinh viên trường em nó khác cô ạ .,Neutral,Negative,0.87271553,0.10057719
+1422,thầy dạy ổn ạ .,Neutral,Positive,0.9979572,0.0011407103
+1427,quá nhiều kiến thức cần nắm nhưng thời gian có hạn .,Neutral,Negative,0.9967998,0.0010677259
+1447,thầy dạy khá ổn .,Neutral,Positive,0.9978498,0.0012146645
+1450,thêm nhiều bài tập hay .,Neutral,Positive,0.8242807,0.006250708
+1486,luôn dạy đúng và đủ số tiết .,Neutral,Positive,0.9971506,0.0017649707
+1487,thầy không up slide bài giảng lên website môn học .,Positive,Negative,0.99633765,0.002286706
+1488,nhiều bài tập về nhà .,Negative,Positive,0.9973953,0.0012669482
+1499,"kiến thức nói thì lung tung , lan man , dàn trải .",Negative,Positive,0.99775046,0.0012864068
+1505,thầy dạy tạm ổn .,Neutral,Positive,0.9937775,0.0052014804
+1511,không có điều gì không hài lòng .,Positive,Neutral,0.91842353,0.050322063
+1514,cho các nhóm lên trình bày để tránh việc các bạn copy bài trên mạng và không hiểu bài .,Positive,Negative,0.99638844,0.0022159633
+1527,"nghiêm khắc trong khi dạy , kiến thức chuyên ngành cao .",Negative,Positive,0.9976259,0.0013482329
+1555,"thầy dạy có tâm , nhiệt tình nhưng mà nói hơi nhanh chút xíu .",Neutral,Positive,0.99765235,0.00085639645
+1575,"viết đi viết lại nhiều lần nên giờ tóm gọn vài từ thôi : độc đoán , phân biệt đối xử , "" gia trưởng "" , cứng nhắc , lời nói đôi khi phản sư phạm , xúc phạm người nghe .",Negative,Positive,0.99271363,0.00602943
+1624,giáo viên tạo nhiều cơ hội cho sinh viên được luyện nói tiếng anh trên lớp .,Neutral,Positive,0.99779403,0.0009670448
+1632,thường thì đồ án và bài tập cuối kỳ rất nhiều .,Negative,Positive,0.9937231,0.0033771796
+1650,tổ chức tham quan doanh nghiệp .,Positive,Neutral,0.9556948,0.038514473
+1661,đọc slide từ đầu tới cuối .,Negative,Positive,0.9915912,0.0013699398
+1665,mong thầy giảng dạy ở những môn tiếp theo .,Positive,Negative,0.9954514,0.0030203965
+1675,cập nhật nguồn tài liệu cho sinh viên .,Negative,Positive,0.5095199,0.47210664
+1677,omg .,Negative,Neutral,0.85968405,0.05470387
+1693,"cho sinh viên nói với bạn , giao tiếp tất cả trong lớp bằng tiếng anh .",Neutral,Positive,0.95085335,0.04239289
+1710,giảng viên hay đi công tác .,Negative,Positive,0.9977774,0.001291872
+1719,nhiều seminar .,Negative,Positive,0.9963342,0.0015996384
+1720,"hình dung chưa, câu mà thầy hay hỏi nhất .",Negative,Positive,0.83401954,0.00831519
+1748,được trải nghiệm thực tế sẽ giúp cho môn học thêm phần thú vị và sự thú vị đó sẽ tạp động lực cho sinh viên tự tìm hiểu sau này .,Negative,Positive,0.9963158,0.0023500575
+1762,giữ nguyên hình thức cũ !,Neutral,Positive,0.6902426,0.262228
+1768,có nhiều thời gian hơn để gặp giáo viên và thực hành trên lớp .,Neutral,Negative,0.99602,0.0013643306
+1778,máy chiếu thường có vấn đề ở phòng giảng viên .,Negative,Positive,0.996979,0.0018702529
+1780,nên nhiều vấn đề thầy giảng còn hơi mông lung khó hiểu .,Positive,Negative,0.9969506,0.0020613226
+1788,"viết bài nhiều , học ngoài giờ nhiều .",Positive,Negative,0.9921927,0.006277729
+1792,cập nhật thông tin môn học trên courses .,Negative,Positive,0.50896966,0.4255633
+1813,làm đồ án phải báo cáo mỗi 2 tuần .,Positive,Negative,0.9805325,0.0072214864
+1822,tốt rồi .,Positive,Neutral,0.65706515,0.3376556
+1838,"về cách chấm điểm đồ án cuối kỳ , giảng viên hoàn toàn chấm theo cảm tính mà không có bất cứ một thang điểm cụ thể nào .",Negative,Positive,0.99475175,0.0031376206
+1846,nói chung là không có vấn đề tiêu cực với phương pháp của cô .,Neutral,Negative,0.99681014,0.0013705139
+1849,vì thời gian trong lớp tập trung hơn .,Neutral,Negative,0.99338657,0.0032028002
+1870,lớp có 2 giảng viên hướng dẫn là cô giảng viên và thầy giảng viên .,Neutral,Positive,0.9951703,0.0037303655
+1871,chỉ có việc đọc slide và chấm điểm không giải thích gì thêm .,Negative,Neutral,0.5590585,0.42203632
+1876,yêu cầu khá cao cho sinh viên về môn học .,Negative,Positive,0.9967632,0.002003287
+1878,"kiến thức thu được là con số 0 , ngao ngán với bài tập cách giảng dạy của giảng viên .",Negative,Positive,0.9961681,0.0026059859
+1910,ví dụ của thầy cũng chưa rõ ràng .,Positive,Negative,0.9966899,0.0021595196
+1912,điều đó làm tăng áp lực cho sinh viên .,Negative,Positive,0.99637944,0.0020179683
+1947,cứ lo tụi em không hiểu mà dạy đi dạy lại tới khi hiểu rõ vấn đề mới qua phần mới .,Positive,Negative,0.99661297,0.0021841233
+1952,vì thầy không đến lớp giảng dạy bữa nào cả nên em không biết nhận xét .,Neutral,Negative,0.9684875,0.029055318
+1955,"em được biết đây là kỳ dạy cuối cùng của thầy nên em chúc thầy sức khỏe dồi dào , gia đình hạnh phúc .",Neutral,Positive,0.9972869,0.0015347307
+1956,cho sinh viên những bài tập cơ bản để tìm hiểu về bài giảng lý thuyết .,Neutral,Positive,0.99608827,0.0016041803
+1970,mặc dù có kiến thức tốt !,Neutral,Negative,0.9882783,0.0028040258
+2005,"nhắc nhở sinh viên là ý tốt của thầy , nhưng thật sự tụi em thấy rất áp lực với môn học này .",Negative,Positive,0.9973604,0.0013995639
+2006,"slide bài giảng ( dịch từ sách tiếng anh ) rất lủng củng , tối nghĩa , đề mục không thống nhất .",Negative,Positive,0.99762684,0.0014257489
+2007,một số nội dung giảng viên giảng khá nhanh .,Negative,Positive,0.99698836,0.0019328475
+2015,thầy luôn tạo một vẻ bề ngoài khiến cho sinh viên căng thẳng khi học .,Negative,Positive,0.99747086,0.0014979973
+2027,chỉ cần cho bài tập qua web môn học sinh viên sẽ làm .,Neutral,Positive,0.79666406,0.17863554
+2044,giúp sinh viên tiếp thu kiến thức nhưng không làm nhàm chán .,Negative,Positive,0.9964445,0.0022690566
+2049,"bài tập thầy cho cũng đòi hỏi phải đến lớp , nghe giảng và phải hiểu thật sự mới làm được .",Neutral,Negative,0.9948803,0.0014540144
+2061,nêu được hi vọng ở khóa sau thầy sẽ cho thêm tài liệu để tự học .,Negative,Positive,0.9730939,0.014030537
+2073,chỉ cần khoảng 60% gần tương ứng với nội dung thi là đủ .,Neutral,Negative,0.99717665,0.001417523
+2118,"yêu cầu sinh viên tự học , tự chuẩn bị .",Negative,Positive,0.99774796,0.0011548944
+2119,khiến sinh viên mơ hồ về môn này .,Negative,Positive,0.99732494,0.001508359
+2135,cái này vấn đề chung của cả nước mất rồi colonhihi .,Neutral,Negative,0.93381315,0.047576323
+2153,"thầy dạy tận tình , giảng nhiều nhưng em hiểu không được bao nhiêu .",Negative,Positive,0.9973145,0.0018108864
+2158,có lời cho công việc sau này của mình không .,Negative,Neutral,0.92514366,0.056157902
+2172,chỉ cần cho bài tập rồi làm nộp .,Neutral,Negative,0.7753805,0.19495438
+2197,thầy cho nghỉ học thường xuyên .,Negative,Positive,0.99190724,0.0058268574
+2206,cách tính điểm chi tiết .,Negative,Neutral,0.957137,0.008947318
+2217,"vui tính , tận tình chỉ dạy , nhưng nhiều nội dung giảng chưa kỹ và khó hiểu .",Positive,Negative,0.9789336,0.019240264
+2226,hy vọng học kỳ tiếp theo được học môn cấu trúc rời rạc của thầy .,Negative,Positive,0.98649174,0.010766387
+2237,cảm thấy bình thường .,Neutral,Positive,0.9969086,0.0016887161
+2247,đó là điều mà em ngưỡng mộ nhất .,Neutral,Positive,0.9947489,0.00361836
+2250,"bổ sung nhiều bài tập , hướng dẫn thảo luận tại lớp .",Negative,Positive,0.99765766,0.0012830405
+2261,góp ý cho thầy .,Neutral,Positive,0.8089575,0.1838802
+2264,em đóng góp cũng chỉ mong để sau này các lớp xử lý ngôn ngữ tự nhiên đông hơn và nhiều sinh viên chọn hơn .,Positive,Negative,0.987324,0.007540019
+2273,thầy dạy ổn .,Neutral,Positive,0.9977094,0.0014689391
+2283,yêu cầu cao .,Negative,Positive,0.9962714,0.0021038842
+2290,"giảng viên thực hành nhiều bài thực hành trực quan , giảng dễ hiểu .",Negative,Positive,0.99792236,0.0011884783
+2317,thầy dạy rất vui nhưng đôi khi còn rất khó tính .,Neutral,Negative,0.9806457,0.0017585193
+2337,cho bài tập từ dễ tới khó .,Neutral,Positive,0.9966344,0.0020699
+2354,làm bài tập khá nhiều .,Negative,Positive,0.912798,0.0832005
+2355,tuy nhiên thầy ít đùa .,Neutral,Negative,0.9451128,0.018579137
+2365,lắng nghe cách giải quyết vấn đề của sinh viên .,Neutral,Positive,0.99770516,0.0011214125
+2369,nên cho thực hành nhiều hơn .,Positive,Negative,0.9969229,0.0019416272
+2381,mưa cho nghỉ ạ vui vẻ .,Negative,Positive,0.99791497,0.0009411396
+2391,"bài tập thầy cho quá khó , nhưng không sao đề ra như vậy mới nâng cao trình độ của tụi em .",Positive,Negative,0.99700063,0.0019676904
+2393,"cô dạy rất rõ ràng , rành mạch , nhưng hơi thiên về lý thuyết .",Negative,Positive,0.9978295,0.0012230916
+2431,kiến thức tổng hợp .,Neutral,Positive,0.99707353,0.0016733586
+2447,chú thích những phần cần phải tập trung .,Neutral,Positive,0.98308635,0.005731214
+2456,cô cho làm đồ án nhóm với lại cho bài tập theo từng tuần nên sinh viên có thời gian sắp xếp để làm bài .,Neutral,Positive,0.99487513,0.0013313064
+2461,tập trung thực hành kiến thức trọng tâm của giờ ký thuyết .,Neutral,Positive,0.9957841,0.0014651623
+2470,"dạy liên hệ thực tế , giảng dễ hiểu .",Negative,Positive,0.9978877,0.0012085206
+2473,giảng viên là thầy nào ?,Negative,Neutral,0.9563854,0.028752115
+2508,"thầy nội dung dạy rất đơn giản , không đáng được xem là một môn học .",Negative,Positive,0.99705184,0.001996642
+2517,môn công nghệ web và ứng dụng có 2 tín chỉ lý thuyết .,Neutral,Positive,0.9959292,0.002585575
+2527,giảng viên bên lớp lý thuyết thì kiến thức dạy hoàn toàn khác với giảng viên lớp thực hành .,Negative,Positive,0.99335444,0.004983478
+2546,bài thực hành nên mang tính chất bắt buộc hoặc khuyến khích sinh viên làm để lấy điểm cộng để tạo động lực cũng như hứng thú với bài thực hành hơn .,Positive,Negative,0.9964355,0.002492354
+2558,cô dạy giọng hơi đều đều cho nên dễ ngủ .,Negative,Positive,0.9978709,0.0011942284
+2603,nhiều ví dụ .,Neutral,Positive,0.9974356,0.0013476132
+2606,"thầy giảng nhiệt tình , sát trọng tâm , dễ hiểu , mong thầy kỳ sau sẽ dạy môn xác xuất thống kê .",Neutral,Positive,0.9980118,0.0008466168
+2621,đi sâu vào vấn đề khó hơn .,Positive,Negative,0.9965411,0.0023683945
+2629,chi tiết .,Neutral,Positive,0.9979619,0.0010038958
+2630,đồng nhất một giáo trình giảng dạy .,Negative,Positive,0.9805727,0.007657444
+2635,phần ý kiến của em trong phần khảo sát thầy giảng viên em nói có liên quan đến thầy luôn .,Neutral,Positive,0.9971269,0.0015365089
+2646,mỗi dạng bài thì thầy ghi ra 3 câu bài tập là ổn rồi .,Neutral,Positive,0.9586083,0.029464934
+2677,"một số chỗ khó hiểu , nhưng nếu chăm chỉ tự học thì sẽ khắc phục được .",Neutral,Negative,0.9961733,0.0016656293
+2683,"bài tập thầy đưa ra cho lớp hơi khó , nhưng quá đó giúp chúng em rèn luyện tư duy thuật toán .",Negative,Positive,0.95673454,0.039095193
+2690,trao đổi trên hệ thống website môn học .,Positive,Neutral,0.914236,0.072986
+2693,"nội dung , kiến thức khá chung chung .",Negative,Positive,0.9969997,0.0014221803
+2719,sinh viên học xong có thể làm bài kiểm tra tốt nhưng đa số không thể giao tiếp cơ bản bằng tiếng anh .,Negative,Positive,0.9962908,0.00256108
+2722,cám ơn thầy đã giúp đỡ em .,Neutral,Positive,0.94344425,0.052931827
+2723,em chưa bao giờ được thầy reply mail .,Negative,Neutral,0.81088775,0.17123705
+2725,chăm chú bài tập .,Neutral,Positive,0.99771994,0.0012260741
+2744,giảng dạy thực tế .,Neutral,Positive,0.9976084,0.001334598
+2747,"mục đích của môn học , có liên quan gì dến những môn học trước và sau này .",Negative,Neutral,0.5193103,0.45090944
+2748,cần có giáo trình chi tiết về môn học cho sinh viên dễ nắm bắt .,Positive,Negative,0.99645656,0.002347164
+2769,phòng máy có vấn đề .,Negative,Positive,0.99704343,0.001347172
+2770,"dạy dễ hiểu , không bị rối .",Negative,Positive,0.99795973,0.0011021624
+2773,giảng viên chia thành nhiều nhóm để sinh viên thảo luận có hiệu quả .,Negative,Positive,0.9970919,0.0017671583
+2777,"cho thảo luận , làm seminar .",Positive,Neutral,0.96899843,0.025732812
+2782,thay vì đưa bài ra rồi bảo các bạn nộp kết quả .,Neutral,Negative,0.99723,0.0010632819
+2790,hầu hết sinh viên đều ngủ gật trong lớp .,Negative,Positive,0.99716324,0.0010751475
+2796,nghỉ sinh em bé vui vẻ nha cô .,Neutral,Positive,0.997544,0.0014993206
+2808,mọi thứ đều ổn .,Neutral,Positive,0.98766255,0.011352623
+2875,dạy kỹ các phần quan trọng .,Neutral,Positive,0.9978612,0.00094740535
+2883,thanks !,Neutral,Positive,0.9652754,0.032777157
+2885,các thành viên khác chịu thua .,Negative,Neutral,0.8431874,0.114537165
+2899,có lúc em còn cảm thấy có lỗi vì công sức của cô trên lớp như vậy mà mình lại làm biếng học bài .,Neutral,Negative,0.9959506,0.0015658948
+2929,hy vọng không gặp lại thầy ở kỳ sau vui vẻ .,Negative,Positive,0.987723,0.008128209
+2937,"những bạn không chịu học và lơ là từ trước giờ vẫn qua hai môn của thầy một cách dễ dàng và thậm chí còn đạt được điểm cao , do đề cơ bản và còn được sử dụng tài liệu , laptop .",Negative,Positive,0.99642205,0.0023252135
+2950,nâng cao kiến thức .,Positive,Negative,0.7081576,0.2646377
+2986,thầy dạy hết sức mơ hồ và khó hiểu .,Negative,Positive,0.99774253,0.0013376012
+2999,dựa vào một game cơ bản để sinh viên hiểu rõ hơn .,Neutral,Negative,0.9835074,0.0117189465
+3010,"có hoạt động trò chơi , hát tiếng anh .",Neutral,Positive,0.99775726,0.0011249448
+3015,định hướng từ sớm về cách tiếp cận đồ án đối với sinh viên .,Negative,Positive,0.9951239,0.0034258787
+3021,đó là một động lực rất lớn để tụi em hoàn thành hết tất cả bài tập của thầy .,Neutral,Positive,0.99652773,0.002080315
+3056,"dạ , cho em hỏi là trường mình là tạo sao không dùng ngôn ngữ c thay cho assembly .",Neutral,Negative,0.99618393,0.0019833986
+3066,"có thể không chữa cũng được , ai thắc mắc sẽ hỏi riêng .",Negative,Neutral,0.8700622,0.032997705
+3078,môn học này chất lượng bình thường .,Neutral,Positive,0.53814894,0.41339362
+3084,"tâm lý giảng dạy rất nặng nề , áp lực .",Negative,Positive,0.99324715,0.0056257998
+3095,"ngoài thời gian cố định như trong thời khóa biểu của nhà trường , em đều cố gắng sắp xếp đi đủ .",Neutral,Positive,0.9959144,0.0022178483
+3105,đi học rất ít nên rất mất công người đi dậy .,Neutral,Negative,0.99541926,0.0015163001
+3124,chô tiếng việt giống như là copy nguyên văn từ google dịch vậy .,Neutral,Negative,0.99573624,0.0013828826
+3150,có một ít áp lực .,Neutral,Negative,0.6360815,0.34682068
+3165,"em có học ở một trung tâm tiếng anh ở ngoài trường , thời lượng hợp lý , không nhiều không ít khoảng 2 - 3 tiết một buổi !",Neutral,Positive,0.9950199,0.0027611211

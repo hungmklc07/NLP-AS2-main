@@ -1,0 +1,26 @@
+{
+  "ensemble_name": "Majority_Voting_All",
+  "test_accuracy": 0.9115603284902085,
+  "test_weighted_f1": 0.9084992518040741,
+  "test_macro_f1": 0.7822732606581803,
+  "per_class": {
+    "Negative": {
+      "precision": 0.9018036072144289,
+      "recall": 0.9581263307310149,
+      "f1-score": 0.9291121816930489,
+      "support": 1409.0
+    },
+    "Neutral": {
+      "precision": 0.5691056910569106,
+      "recall": 0.41916167664670656,
+      "f1-score": 0.4827586206896552,
+      "support": 167.0
+    },
+    "Positive": {
+      "precision": 0.9482535575679172,
+      "recall": 0.9220125786163522,
+      "f1-score": 0.9349489795918368,
+      "support": 1590.0
+    }
+  }
+}

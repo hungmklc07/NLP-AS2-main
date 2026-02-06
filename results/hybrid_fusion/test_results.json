@@ -1,0 +1,31 @@
+{
+  "model_name": "Hybrid Feature Fusion",
+  "components": [
+    "PhoBERT-base embeddings",
+    "TF-IDF (5000 features)",
+    "Handcrafted sentiment (10 features)"
+  ],
+  "test_accuracy": 0.8916614024005054,
+  "test_weighted_f1": 0.8901651238382131,
+  "test_macro_f1": 0.7467258415839253,
+  "per_class": {
+    "Negative": {
+      "precision": 0.8995873452544704,
+      "recall": 0.9283179559971612,
+      "f1-score": 0.9137268599371289,
+      "support": 1409.0
+    },
+    "Neutral": {
+      "precision": 0.43243243243243246,
+      "recall": 0.38323353293413176,
+      "f1-score": 0.40634920634920635,
+      "support": 167.0
+    },
+    "Positive": {
+      "precision": 0.9277493606138107,
+      "recall": 0.9125786163522013,
+      "f1-score": 0.9201014584654407,
+      "support": 1590.0
+    }
+  }
+}

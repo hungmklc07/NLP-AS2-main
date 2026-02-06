@@ -1,0 +1,26 @@
+{
+  "model_name": "Hybrid V2 (Gated)",
+  "test_accuracy": 0.8875552747946936,
+  "test_weighted_f1": 0.9000378571607945,
+  "test_macro_f1": 0.7787491080713217,
+  "per_class": {
+    "Negative": {
+      "precision": 0.9443609022556391,
+      "recall": 0.8914123491838183,
+      "f1-score": 0.9171230376049653,
+      "support": 1409.0
+    },
+    "Neutral": {
+      "precision": 0.3628571428571429,
+      "recall": 0.7604790419161677,
+      "f1-score": 0.4912959381044487,
+      "support": 167.0
+    },
+    "Positive": {
+      "precision": 0.9602960969044414,
+      "recall": 0.8974842767295598,
+      "f1-score": 0.9278283485045513,
+      "support": 1590.0
+    }
+  }
+}

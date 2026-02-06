@@ -1,0 +1,29 @@
+{
+  "model_name": "phobert-large",
+  "pretrained_name": "vinai/phobert-large",
+  "use_weighted_loss": true,
+  "merge_train_dev": false,
+  "test_accuracy": 0.9355653821857233,
+  "test_weighted_f1": 0.9318271776522237,
+  "test_macro_f1": 0.8263059722417969,
+  "per_class": {
+    "Negative": {
+      "precision": 0.9342915811088296,
+      "recall": 0.9687721788502484,
+      "f1-score": 0.9512195121951219,
+      "support": 1409.0
+    },
+    "Neutral": {
+      "precision": 0.75,
+      "recall": 0.46706586826347307,
+      "f1-score": 0.5756457564575646,
+      "support": 167.0
+    },
+    "Positive": {
+      "precision": 0.9487820112429731,
+      "recall": 0.9553459119496855,
+      "f1-score": 0.9520526480727045,
+      "support": 1590.0
+    }
+  }
+}
